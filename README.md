@@ -1,12 +1,12 @@
 # Attach API Agent Loader
 
 This application uses [Attach API](http://docs.oracle.com/javase/7/docs/technotes/guides/attach/index.html)
-to load a Java Agent into a running Java virtual machine with a provided process id.
+to load a Java Agent into a running Java Virtual Machine with a provided process id.
 
-##Prerequisites
+## Prerequisites
 * System variable JAVA_HOME set to JDK directory
 
-##Execution
+## Execution
 Discover the process id of the running virtual machine:
 ```
 jps
